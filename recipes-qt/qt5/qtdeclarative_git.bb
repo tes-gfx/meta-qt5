@@ -29,3 +29,5 @@ SRCREV = "36e4e9bbd402cefab9d7b68635a94a02e0b41187"
 BBCLASSEXTEND =+ "native nativesdk"
 
 SRC_URI += "file://0001-Fix-build-with-gcc-11.patch"
+
+inherit pythonnative
